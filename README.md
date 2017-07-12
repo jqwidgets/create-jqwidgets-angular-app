@@ -1,5 +1,4 @@
 # create-jqwidgets-angular-app
-[create-jqwidgets-angular-app](https://github.com/jqwidgets/create-jqwidgets-angular-app)
 Please refer to its documentation:
   - [Getting Started](https://github.com/jqwidgets/create-jqwidgets-angular-app/blob/master/README.md#getting-started) 
   - [jQWidgets Angular Documentation](http://www.jqwidgets.com/angular-components-documentation/)
@@ -58,9 +57,21 @@ Subfolders are not shown in order to keep it short.<br>
 Once the installation is done, you can run some commands inside the project folder:
 
 ### `npm start`
-Builds the app in development mode and starts a web server.
-Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
+Builds the app in development mode and starts a web server. <br />
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser. <br />
 The page will reload if you make edits.
 
 ### `npm run build`
 Builds the app in production mode and stores it in the `dist/` directory.
+
+### Adding other jqxWidgets
+
+This project will show you the `Angular jQWidgets Grid`. But of course you will want to use some other widgets too. <br />
+For that you need to add their core files first. This is done in the `.angular-cli.json` file. <br />
+Inside you will find a `scripts` property in which you must add the needed `jqx` core files. 
+
+## Why Use This?
+
+**If you’re getting started** with `jQWidgets` and `Angular`, using `create-jqwidgets-angular-app` is the easiest way to do this.  <br />
+Just install, run and you will see an Angular jQWidgets Grid on your page. <br />
+Then you can customize the project as much as you want, making something great.
