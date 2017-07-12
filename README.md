@@ -64,7 +64,7 @@ The page will reload if you make edits.
 ### `npm run build`
 Builds the app in production mode and stores it in the `dist/` directory.
 
-### Adding other jqxWidgets
+### Adding other jqWidgets
 
 This project will show you the `Angular jQWidgets Grid`. But of course you will want to use some other widgets too. <br />
 For that you need to add their core files first. This is done in the `.angular-cli.json` file. <br />
