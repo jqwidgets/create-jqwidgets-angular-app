@@ -27,7 +27,7 @@ Install it once globally:
 npm install -g create-jqwidgets-angular-app
 ```
 
-**You’ll need to have Node on your machine**.
+**Make sure you have the latest version of [Node](https://nodejs.org/en/) on your machine**.
 
 ### Creating an App
 
