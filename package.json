@@ -1,14 +1,27 @@
 {
-  "name": "create-jqwidgets-angular-app",
-  "version": "0.1.0",
-  "description": "jQWidgets Angular Template Project",
-  "license": "http://www.jqwidgets.com/license/",
-  "author": "www.jqwidgets.com",
-  "scripts": {
-    "start": "ng serve",
-    "build": "ng build --base-href ./ --prod"
+  "_from": "https://github.com/jqwidgets/my-app2/tarball/master",
+  "_id": "my-app2@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-tl2BTeCBbs1qG3WmU1KxjQoy+RE=",
+  "_location": "/my-app2/my-app2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "my-app2@https://github.com/jqwidgets/my-app2/tarball/master",
+    "name": "my-app2",
+    "escapedName": "my-app2",
+    "rawSpec": "https://github.com/jqwidgets/my-app2/tarball/master",
+    "saveSpec": "https://github.com/jqwidgets/my-app2/tarball/master",
+    "fetchSpec": "https://github.com/jqwidgets/my-app2/tarball/master"
   },
-  "private": true,
+  "_requiredBy": [],
+  "_resolved": "https://github.com/jqwidgets/my-app2/tarball/master",
+  "_spec": "my-app2@https://github.com/jqwidgets/my-app2/tarball/master",
+  "_where": "C:\\Users\\IvoZhulev\\AppData\\Roaming\\npm\\node_modules\\my-app2",
+  "author": {
+    "name": "www.jqwidgets.com"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "@angular/animations": "5.0.5",
     "@angular/common": "5.0.5",
@@ -24,6 +37,8 @@
     "rxjs": "5.5.3",
     "zone.js": "0.8.18"
   },
+  "deprecated": false,
+  "description": "jQWidgets Angular Template Project",
   "devDependencies": {
     "@angular/cli": "1.5.5",
     "@angular/compiler-cli": "5.0.5",
@@ -41,8 +56,16 @@
     "karma-jasmine": "1.1.1",
     "karma-jasmine-html-reporter": "0.2.2",
     "protractor": "5.2.0",
-    "tslint": "5.8.0",
     "ts-node": "3.3.0",
+    "tslint": "5.8.0",
     "typescript": "2.4.2"
-  }
+  },
+  "license": "http://www.jqwidgets.com/license/",
+  "name": "my-app2",
+  "private": true,
+  "scripts": {
+    "build": "ng build --base-href ./",
+    "start": "ng serve"
+  },
+  "version": "0.1.0"
 }
