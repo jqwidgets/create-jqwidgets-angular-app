@@ -62,7 +62,7 @@ Open [http://localhost:4200](http://localhost:4200) to view it in the browser. <
 The page will reload if you make edits.
 
 ### `npm run build`
-Builds the app in production mode and stores it in the `dist/` directory.
+Builds the app and stores it in the `dist/` directory.
 
 ## Why Use This?
 
