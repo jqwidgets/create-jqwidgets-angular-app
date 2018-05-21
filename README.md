@@ -44,10 +44,8 @@ my-app
 ├── e2e
 ├── node_modules
 ├── src
-├── .angular-cli.json
-├── karma.conf.js
+├── angular.json
 ├── package.json
-├── protractor.conf.js
 ├── README.md
 ├── tsconfig.json
 ├── tslint.json
