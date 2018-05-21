@@ -1,71 +1,27 @@
-# create-jqwidgets-angular-app
-Please refer to its documentation:
-  - [Getting Started](https://github.com/jqwidgets/create-jqwidgets-angular-app/blob/master/README.md#getting-started) 
-  - [jQWidgets Angular Documentation](http://www.jqwidgets.com/angular-components-documentation/)
+# NewCLI
 
-This project is based on [Angular CLI](https://cli.angular.io/).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
-## Quick Overview
-```sh
-npm i -g create-jqwidgets-angular-app 
+## Development server
 
-create-jqwidgets-angular-app my-app
-cd my-app
-npm start
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Then open [http://localhost:4200/](http://localhost:4200/) to see your app.<br>
-When you’re ready to deploy to production, create a minified bundle with `npm run build`.
+## Code scaffolding
 
-## Getting Started
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Installation
+## Build
 
-Install it once globally:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-```sh
-npm install -g create-jqwidgets-angular-app
-```
+## Running unit tests
 
-**Make sure you have the latest version of [Node](https://nodejs.org/en/) on your machine**.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Creating an App
+## Running end-to-end tests
 
-```sh
-create-jqwidgets-angular-app my-app
-cd my-app
-```
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-It will create a directory called `my-app` inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install the transitive dependencies:
+## Further help
 
-```
-my-app
-├── e2e
-├── node_modules
-├── src
-├── .angular-cli.json
-├── karma.conf.js
-├── package.json
-├── protractor.conf.js
-├── README.md
-├── tsconfig.json
-├── tslint.json
-```
-
-Subfolders are not shown in order to keep it short.<br>
-Once the installation is done, you can run some commands inside the project folder:
-
-### `npm start`
-Builds the app in development mode and starts a web server. <br />
-Open [http://localhost:4200](http://localhost:4200) to view it in the browser. <br />
-The page will reload if you make edits.
-
-### `npm run build`
-Builds the app and stores it in the `dist/` directory.
-
-## Why Use This?
-
-**If you’re getting started** with `jQWidgets` and `Angular`, using `create-jqwidgets-angular-app` is the easiest way to do this.  <br />
-Just install, run and you will see an Angular jQWidgets Grid on your page. <br />
-Then you can customize the project as much as you want, making something great.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

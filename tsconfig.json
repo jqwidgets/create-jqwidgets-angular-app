@@ -1,27 +1,26 @@
-{
-    "compileOnSave": false,
-    "compilerOptions": {
-        "outDir": "./dist/out-tsc",
-        "baseUrl": "src",
-        "sourceMap": true,
-        "declaration": false,
-        "moduleResolution": "node",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "target": "es5",
-        "typeRoots": [
-            "node_modules/@types"
-        ],
-        "lib": [
-            "es2016",
-            "dom"
-        ]
-    },
-    "include": [
-        "src/**/*"
+﻿{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
     ],
-    "files": [
-        // For all widgets used, add the relevant .ts file.
-        "node_modules/jqwidgets-scripts/jqwidgets-ts/angular_jqxgrid.ts"
+    "lib": [
+      "es2017",
+      "dom"
     ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "files": [
+    "node_modules/jqwidgets-scripts/jqwidgets-ts/angular_jqxbargauge.ts"
+  ]
 }
