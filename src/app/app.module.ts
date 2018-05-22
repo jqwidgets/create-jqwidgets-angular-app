@@ -1,13 +1,13 @@
 ﻿import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { jqxBarGaugeComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxbargauge';
+import { jqxGridComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxgrid';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent, jqxBarGaugeComponent
+    AppComponent, jqxGridComponent
   ],
   imports: [
     BrowserModule
