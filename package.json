@@ -3,7 +3,8 @@
   "version": "4.0.0",
   "scripts": {
     "build": "ng build --base-href ./",
-    "start": "ng serve"
+    "start": "ng serve",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
