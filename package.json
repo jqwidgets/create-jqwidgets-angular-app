@@ -1,6 +1,6 @@
 {
   "name": "create-jqwidgets-angular-app",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "scripts": {
     "build": "ng build --base-href ./",
     "start": "ng serve",
@@ -18,7 +18,7 @@
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
     "core-js": "^2.5.4",
-    "jqwidgets-scripts": "^5.7.2",
+    "jqwidgets-scripts": "^6.0.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
