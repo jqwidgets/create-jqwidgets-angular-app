@@ -2,7 +2,6 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/spec",
-    "module": "commonjs",
     "types": [
       "jasmine",
       "node"
@@ -14,7 +13,6 @@
   ],
   "include": [
     "**/*.spec.ts",
-    "**/*.d.ts",
-    "../node_modules/jqwidgets-scripts/jqwidgets-ts"
+    "**/*.d.ts"
   ]
 }

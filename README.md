@@ -1,4 +1,4 @@
-# create-jqwidgets-angular-app
+﻿# create-jqwidgets-angular-app
 Please refer to its documentation:
   - [Getting Started](https://github.com/jqwidgets/create-jqwidgets-angular-app/blob/master/README.md#getting-started) 
   - [jQWidgets Angular Documentation](http://www.jqwidgets.com/angular-components-documentation/)
