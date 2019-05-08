@@ -73,3 +73,5 @@ Builds the app in production mode and stores it in the `dist/` directory.
 **If you’re getting started** with `jQWidgets` and `Angular`, using `create-jqwidgets-angular-app` is the easiest way to do this.  <br />
 Just install, run and you will see an Angular jQWidgets Grid on your page. <br />
 Then you can customize the project as much as you want, making something great.
+
+![grid-img](https://www.jqwidgets.com/angular-components-documentation/documentation/create-jqwidgets-angular-app/create-jqwidgets-angular-app.png)
