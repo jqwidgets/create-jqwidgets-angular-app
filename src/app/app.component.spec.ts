@@ -1,6 +1,8 @@
 import { TestBed, ComponentFixture } from '@angular/core/testing';
+
+import { jqxGridComponent } from 'jqwidgets-ng/jqxgrid';
+
 import { AppComponent } from './app.component';
-import { jqxGridComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxgrid';
 
 describe('AppComponent', () => {
   let fixture: ComponentFixture<AppComponent>;
@@ -12,7 +14,7 @@ describe('AppComponent', () => {
     fixture = TestBed.createComponent(AppComponent);
   })
 
-  it('should columngroups text be Product Details', () => {
-    expect(fixture.componentInstance.columngroups[0].text).toBe('Product Details');
+  it('should columns[0] text be Product Name', () => {
+    expect(fixture.componentInstance.columns[0].text).toBe('Product Name');
   });
 });
