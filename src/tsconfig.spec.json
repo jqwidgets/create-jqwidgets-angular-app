@@ -10,8 +10,7 @@
     "files": [
         "test.ts",
         "polyfills.ts",
-        "app/app.module.ts",
-        "../node_modules/jqwidgets-scripts/jqwidgets-ts/angular_jqxgrid.ts"
+        "app/app.module.ts"
     ],
     "include": [
         "**/*.spec.ts",
