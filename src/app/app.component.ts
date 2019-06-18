@@ -19,7 +19,7 @@ export class AppComponent {
     root: 'Products',
     record: 'Product',
     id: 'ProductID',
-    url: '../assets/products.xml'
+    url: './../assets/products.xml'
   };
 
   public dataAdapter = new jqx.dataAdapter(this.source);

@@ -6,9 +6,9 @@ import { jqxGridModule } from 'jqwidgets-ng/jqxgrid';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, jqxGridModule],
-  bootstrap: [AppComponent]
+  declarations: [ AppComponent ],
+  imports: [ BrowserModule, jqxGridModule ],
+  bootstrap: [ AppComponent ]
 })
 
 export class AppModule { }
