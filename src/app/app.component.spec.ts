@@ -14,7 +14,7 @@ describe('AppComponent', () => {
     fixture = TestBed.createComponent(AppComponent);
   })
 
-  it('should columns[0] text be Product Name', () => {
-    expect(fixture.componentInstance.columns[0].text).toBe('Product Name');
+  it('should columns[0] text be Contact Name', () => {
+    expect(fixture.componentInstance.columns[0].text).toBe('Contact Name');
   });
 });
